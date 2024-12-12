@@ -46,7 +46,7 @@ app.use(
   })
 );
 
-// Passport middleware ,we are using passport for log in and stay logged in with sessions. 
+// Passport middleware ,we are using passport for log in and stay logged in with sessions..
 app.use(passport.initialize());
 app.use(passport.session());
 
